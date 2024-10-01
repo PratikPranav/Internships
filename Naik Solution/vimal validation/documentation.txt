@@ -1,0 +1,13 @@
+<!-- Author : Pratik Pranav
+start date:04/08/23
+Edited date: 04/08/23 -->
+
+path:  C:\xampp\htdocs\vimal\pro
+
+Did Validation :
+of files :
+  1. addstage2.php
+  2. addstage3.php
+  3. addstage4.php
+  4. addstage5.php
+  5. addstage6.php

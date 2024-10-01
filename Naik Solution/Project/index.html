@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+    <form action="data.php" method="post">
+        <h1 style="margin: 5px 50px 10px;">Submit Form</h1>
+        <label for="fnl">Enter First Name</label>
+        <input type="text" id="fnt" name="fnt" min="3" required ><br>
+
+        <label for="lnl">Enter Last Name</label>
+        <input type="text" id="lnt" name="lnt" ><br>
+
+        <label for="pnl">Enter Phone No:</label>
+        <input type="tel" id="pnt" name="pnt" ><br>
+
+        <p>Select Gender<p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+
+        <p>Select Marital status<p>
+        <select name="mas" id="mas">
+            <option value="married">Married</option>
+            <option value="Single">Single</option>
+            <option value="Widow">Widow</option>
+        </select><br>
+
+        Enter Address :
+        <textarea name="ta" id="ta" rows="5" cols="25"></textarea><br>
+         <br>
+        <button type="submit" name="sb" >Submit</button>
+
+    </form>
+    </div>
+</body>
+</html>
